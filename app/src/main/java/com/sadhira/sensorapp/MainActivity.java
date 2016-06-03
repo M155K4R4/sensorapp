@@ -40,7 +40,7 @@ public class MainActivity extends Activity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.content_main);
 
         b1 = (Button) findViewById(R.id.button);
         b2=(Button)findViewById(R.id.button2);
